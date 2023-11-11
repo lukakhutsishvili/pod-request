@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src = "script.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <title>pod-request</title>
+</head>
+<body>
+    <img class="phone" src ="images/mobile/image-host.jpg" />
+    <header>
+        <img src="images/desktop/logo.svg" />
+    </header>
+    <section>
+        <h1>Publish your podcasts
+            <span>everywhere.</span></h1>
+            <p class = "maintxt">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+            <div class="logos">
+                <img  class = "spotify" src="images/desktop/spotify.svg"/>
+                <img class = "apple" src="images/desktop/apple-podcast.svg"/>
+                <img class = "google" src="images/desktop/google-podcasts.svg"/>
+                <img class = "pocket" src="images/desktop/pocket-casts.svg"/>
+
+            </div>
+            <div class="userdiv" >
+                <input id="emailInput" type="email" placeholder="Email Adress">
+                <div class="button" onclick="validate()" ><p>Request Access</p></div>
+                <div id="errordiv"><P>Oops! Please check your email</P></div>
+            </div>
+    </section>
+    <img class="pattern" src="images/desktop/bg-pattern-dots.svg"/>
+
+</body>
+</html>
